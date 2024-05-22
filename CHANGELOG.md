@@ -40,6 +40,7 @@
 - Moved and refactored `AsyncOperationProcessor` to `neptune.core.operation_processors` ([#1770](https://github.com/neptune-ai/neptune-client/pull/1770))
 - Moved and refactored `SyncOperationProcessor` to `neptune.core.operation_processors` ([#1779](https://github.com/neptune-ai/neptune-client/pull/1779))
 - Added docstring for the `pop()` function ([#1776](https://github.com/neptune-ai/neptune-client/pull/1776))
+- Decreased `batch_size` for `FloatSeries` from 100 to 1 ([#1793](https://github.com/neptune-ai/neptune-client/pull/1793))
 
 ### Fixes
 - Fixed `tqdm.notebook` import only in Notebook environment ([#1716](https://github.com/neptune-ai/neptune-client/pull/1716))
